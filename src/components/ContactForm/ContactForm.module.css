@@ -1,0 +1,58 @@
+.Form {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  width: 400px;
+  border-radius: 2px;
+  border: 1px solid #464545;
+  margin-bottom: 20px;
+}
+
+.Label {
+  display: inline-block;
+  margin-bottom: 16px;
+  width: 200px;
+  font-size: 20px;
+  color: #171718;
+  cursor: pointer;
+}
+
+.Input {
+  color: #171718;
+  font: inherit;
+  font-size: 0.9rem;
+  padding: 2px;
+  border-radius: 4px;
+  border: 1px solid #9e9d9d;
+  width: 200px;
+  outline: 0;
+}
+.Input:focus {
+  border: 2px solid blue;
+  box-shadow: 1px 1px 3px 1px rgba(0, 0, 0, 0.2),
+    0px 1px 1px 0px rgba(41, 107, 250, 0.14),
+    0px 2px 1px -1px rgba(0, 0, 0, 0.12);
+}
+
+.Button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: #000;
+  background-color: #c0d4f5;
+  border: 0;
+  outline: 0;
+  width: 120px;
+  padding: 2px 8px;
+  border-radius: 4px;
+  cursor: pointer;
+  box-shadow: 0px 2px 1px 1px rgba(0, 0, 0, 0.05);
+  font: inherit;
+  text-transform: none;
+  user-select: none;
+  transition: background-color 200ms ease-in-out;
+}
+.Button:hover {
+  box-shadow: 0px 2px 1px 1px rgba(0, 0, 0, 0.15);
+  background-color: rgba(0, 0, 255, 0.87);
+}
